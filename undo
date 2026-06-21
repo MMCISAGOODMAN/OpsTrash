@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+"""
+Launcher script for Ops Trash CLI. For development it runs the package in-place.
+"""
+import sys
+from ops_trash.cli import main
+
+if __name__ == '__main__':
+    sys.exit(main())
+
